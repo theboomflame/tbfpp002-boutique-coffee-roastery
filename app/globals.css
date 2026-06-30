@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+:root {
+  --cream: #f8f4ef;
+  --beige: #e6d7c3;
+  --coffee: #6b4f3a;
+  --espresso: #2d221c;
+  --gold: #b78a56;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--espresso);
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+}
+
+.font-heading {
+  font-family: var(--font-cormorant);
+}
+
+.font-body {
+  font-family: var(--font-inter);
+}
+
+.section-padding {
+  padding: 8rem 2rem;
+}
+
+.container-custom {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* ---------- Premium Steam ---------- */
+
+.steam {
+  position: absolute;
+
+  left: 50%;
+  top: 40px;
+
+  width: 32px;          /* was 24px */
+  height: 150px;        /* was 120px */
+
+  transform: translateX(-50%);
+
+  background: rgba(255,255,255,.92); /* was .75 */
+
+  border-radius: 999px;
+
+  filter: blur(16px);   /* was 12px */
+
+  opacity: .9;          /* was .65 */
+
+  animation: steamFloat 4s infinite ease-in-out;
+
+  z-index: 5;
+}
+
+.steam-1 {
+  margin-left: -28px;
+}
+
+.steam-2 {
+  animation-delay: 1.5s;
+}
+
+.steam-3 {
+  margin-left: 28px;
+  animation-delay: 3s;
+}
+
+@keyframes steamFloat {
+
+  0%{
+    opacity:0;
+    transform:translate(-50%,0) scale(.75);
+  }
+
+  20%{
+    opacity:.5;
+  }
+
+  50%{
+    transform:translate(calc(-50% - 10px),-45px) scale(1);
+  }
+
+  100%{
+    opacity:0;
+    transform:translate(calc(-50% + 14px),-130px) scale(1.6);
+  }
+
+}
