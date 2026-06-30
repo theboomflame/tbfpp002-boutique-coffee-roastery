@@ -32,14 +32,14 @@ export default function Home() {
       <Navbar />
 
     <section className="relative flex min-h-screen items-center overflow-hidden px-8 pt-40">
-  <div className="mx-auto grid max-w-7xl items-center gap-24 md:grid-cols-2">
+  <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-2">
 
-    <div>
+     <div className="text-center lg:text-left">
      <p className="mb-5 text-sm font-medium uppercase tracking-[0.45em] text-[#B78A56]">
         Boutique Coffee Roastery Co.
       </p>
 
-     <h1 className="font-heading mb-10 text-7xl font-semibold leading-[0.9] tracking-[-0.03em] text-[#2D221C] md:text-[7rem]">
+     <h1 className="font-heading mb-8 text-5xl leading-[0.95] tracking-[-0.03em] text-[#2D221C] sm:text-6xl md:text-7xl lg:text-[7rem]">
   Coffee Worth
   <br />
   Slowing Down
@@ -47,14 +47,14 @@ export default function Home() {
   For.
 </h1>
 
-      <p className="mb-12 max-w-xl text-lg leading-9 text-[#6B4F3A]">
-  At Boutique Coffee Rostery, we carefully source exceptional beans and roast
+     <p className="mx-auto mb-12 max-w-xl text-lg leading-9 text-[#6B4F3A] lg:mx-0">
+  At Boutique Coffee Roastery, we carefully source exceptional beans and roast
    them in small batches to bring out their richest flavors. Whether you are
     welcoming the morning, meeting with friends, or enjoying a quiet moment alone,
      we are here to make every cup unforgettable.
 </p>
 
-      <div className="flex flex-wrap gap-5">
+      <div className="flex justify-center lg:justify-start">
       <Link
   href="/shop"
   className="
@@ -82,7 +82,7 @@ export default function Home() {
 
 <div className="flex justify-center">
   <MouseParallax>
-    <div className="relative h-[500px] w-[500px] rounded-full bg-[#E6D7C3] overflow-visible">
+    <div className="relative h-[320px] w-[320px] rounded-full bg-[#E6D7C3] overflow-visible sm:h-[420px] sm:w-[420px] md:h-[500px] md:w-[500px]">
 
       <div
         className="absolute left-1/2 top-1/2
@@ -101,7 +101,7 @@ export default function Home() {
 
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
 
-        <div className="relative h-[500px] w-[500px]">
+        <div className="relative h-[320px] w-[320px] sm:h-[420px] sm:w-[420px] md:h-[500px] md:w-[500px]">
 
           <FloatingBeans />
 
@@ -111,8 +111,8 @@ export default function Home() {
             <Image
               src="/images/veloura-cup.png"
               alt="Veloura Coffee"
-              width={540}
-              height={540}
+              width={420}
+              height={420}
               className="
 drop-shadow-[0_35px_60px_rgba(0,0,0,0.28)]
 transition-transform
