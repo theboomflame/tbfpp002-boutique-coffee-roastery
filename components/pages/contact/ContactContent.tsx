@@ -6,7 +6,7 @@ export default function ContactContent() {
     <>
       {/* Hero */}
 
-      <section className="pt-40 pb-24">
+      <section className="pt-36 pb-20 md:pt-40 md:pb-24">
 
         <div className="mx-auto max-w-5xl px-8 text-center">
 
@@ -14,7 +14,7 @@ export default function ContactContent() {
             Contact
           </p>
 
-          <h1 className="font-heading mt-6 text-6xl text-[#2D221C] md:text-8xl">
+          <h1 className="font-heading mt-6 text-5xl leading-[0.95] text-[#2D221C] sm:text-6xl md:text-8xl">
             We would Love
             <br />
             To Hear From You
@@ -36,7 +36,7 @@ export default function ContactContent() {
 
       <section className="py-32">
 
-        <div className="mx-auto grid max-w-7xl gap-20 px-8 lg:grid-cols-2">
+       <div className="mx-auto grid max-w-7xl gap-16 px-6 md:px-8 lg:grid-cols-2">
 
           {/* Form */}
 
@@ -46,7 +46,7 @@ export default function ContactContent() {
               Send a Message
             </p>
 
-            <h2 className="font-heading mt-5 text-5xl text-[#2D221C]">
+            <h2 className="font-heading mt-5 text-4xl leading-tight text-[#2D221C] md:text-5xl">
               We Should Start
               <br />
               A Conversation
@@ -79,11 +79,13 @@ export default function ContactContent() {
               />
 
               <button
-                className="
-                  rounded-full
-                  bg-[#2D221C]
-                  px-10
-                  py-5
+  className="
+    w-full
+    rounded-full
+    bg-[#2D221C]
+    px-10
+    py-5
+    md:w-auto
                   uppercase
                   tracking-[0.3em]
                   text-sm
@@ -110,14 +112,14 @@ export default function ContactContent() {
       alt="Veloura Coffee Roastery"
       width={1200}
       height={800}
-      className="h-[320px] w-full object-cover transition duration-700 hover:scale-105"
+      className="h-[240px] w-full object-cover transition duration-700 hover:scale-105 md:h-[320px]"
     />
 
   </div>
 
-  <div className="rounded-[36px] bg-white p-12 shadow-sm">
+  <div className="rounded-[36px] bg-white p-8 shadow-sm md:p-12">
 
-              <h3 className="font-heading text-4xl text-[#2D221C]">
+              <h3 className="font-heading text-3xl text-[#2D221C] md:text-4xl">
                 Visit Us
               </h3>
 
