@@ -1,36 +1,147 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TBFPP002 – Boutique Coffee Roastery
 
-## Getting Started
+A premium boutique coffee roastery website built as part of Theboomflame Portfolio Projects (TBFPP).
 
-First, run the development server:
+This project showcases a modern luxury coffee brand through an elegant user experience, immersive visuals, responsive design, and a complete e-commerce interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## Live Demo
+
+https://tbfpp002-boutique-coffee-roastery.vercel.app/
+
+---
+
+## Project Overview
+
+Boutique Coffee Roastery is a fictional premium coffee company specialising in small-batch roasted specialty coffee.
+
+The website was designed to communicate craftsmanship, quality and luxury while providing customers with a seamless browsing experience.
+
+---
+
+## Features
+
+- Premium luxury homepage
+- Responsive mobile-first design
+- Product catalogue
+- Dynamic product pages
+- Shopping cart
+- Journal / Blog
+- Dynamic article pages
+- About page
+- Contact page
+- SEO metadata
+- Robots.txt
+- XML Sitemap
+- Smooth animations
+- Floating product animations
+- Mouse parallax effects
+
+---
+
+## Built With
+
+- Next.js 16
+- React
+- TypeScript
+- Tailwind CSS
+- Vercel
+
+---
+
+## Pages
+
+- Home
+- Shop
+- Product Details
+- Journal
+- Article Pages
+- About
+- Contact
+
+---
+
+## Design Goals
+
+The project focuses on creating a premium experience through:
+
+- Luxury typography
+- Spacious layouts
+- Soft earthy colour palette
+- Smooth interactions
+- Editorial-inspired presentation
+- High-end product storytelling
+
+---
+
+## Performance
+
+- Responsive across desktop, tablet and mobile
+- Optimised images
+- SEO-ready metadata
+- Dynamic routing
+- Static optimisation where appropriate
+
+---
+
+## Repository Structure
+
+```
+app/
+components/
+context/
+data/
+lib/
+public/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Add screenshots here after deployment.
 
-## Learn More
+Suggested screenshots:
 
-To learn more about Next.js, take a look at the following resources:
+- Homepage
+- Shop
+- Product Page
+- Journal
+- Contact
+- Mobile Homepage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Future Improvements
 
-## Deploy on Vercel
+- Checkout integration
+- Payment gateway
+- Customer accounts
+- Search functionality
+- Product filtering
+- Wishlist
+- CMS integration
+- Inventory management
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Developer
+
+Developed by **Theboomflame**
+
+Visibility is good. Explosion is better.
+
+Website:
+https://theboomflame.com
+
+GitHub:
+https://github.com/theboomflame
+
+---
+
+## Disclaimer
+
+This project was created for portfolio purposes only.
+
+The brand, products and content are fictional and are intended solely to demonstrate web design, front-end development and user experience capabilities.
